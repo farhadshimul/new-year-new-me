@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+/* button start */
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #FFFFFF;
+border: none;
+  padding: 18px 23px;
+  background-color: #F15B22;
+}
+section{
+  margin-top: 100px;
+}
+
+/* banner start */
+.banner {
+  height: 100vh;
+  background-image: url('../images/banner/banner1.png');
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.banner-contents {
+  margin: 0 200px;
+  width: 500px;
+  text-align: right;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  margin: 20px 0;
+
+}
+
+/* main start here */
+main{
+  margin: 0 200px;
+}
+/* previous year */
+.previous-year{
+  display: flex;
+  align-items: center;
+
+}
+
+.previous-year-content{
+  padding-left: 30px;
+}
+.previous-year-title{
+  font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.previous-year-description{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin: 30px 0;
+}
+
+.previous-year-list{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+
+/* my plan start */
+
+.plan_title{
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+text-align: center;
+margin: 40px 0;
+}
+
+.plan_box{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+
+}

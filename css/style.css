@@ -22,12 +22,13 @@ section{
 .banner {
   height: 100vh;
   background-image: url('../images/banner/banner1.png');
-  background-position: center;
+  background-position: left center;
   background-size: cover;
   padding: 100px 0;
   display: flex;
   justify-content: end;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 .banner-contents {
@@ -103,7 +104,93 @@ margin: 40px 0;
 .plan_box{
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 30px;
   text-align: center;
 
 }
+.box_title{
+  font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #151414;
+}
+
+.box_body{
+  font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+
+}
+
+
+.keep-positive{
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+    padding: 60px 0 60px 60px;
+}
+
+.keep-positive-title{
+  font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.keep-positive .btn-primary{
+  background-color: #FFFFFF;
+  color: #F15B22;
+}
+
+/* footer part */
+.footer{
+  display: flex;
+ justify-content: space-evenly;
+ gap: 20px;
+ background: #151414;
+ padding: 80px 0;
+ 
+ }
+ 
+ .future-title{
+   font-weight: 700;
+ font-size: 45px;
+ line-height: 53px;
+ color: #F8F8F8;
+ }
+ 
+ .futuer-description{
+   font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #FFFFFF;
+ margin: 15px 0;
+ }
+
+ .subscribe-title{
+   font-weight: 600;
+ font-size: 25px;
+ line-height: 29px;
+ color: #FFFFFF;
+ }
+
+.Subscribe-form .email{
+
+height: 50px;
+margin: 15px 0;
+width: 350px;
+background: transparent;
+border-radius: 8px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.Subscribe-form .btn-primary{
+  background-color: #FFFFFF;
+  color: #F15B22;
+  border-radius: 8px; 
+}
+ 

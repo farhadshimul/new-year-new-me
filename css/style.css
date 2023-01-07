@@ -186,6 +186,7 @@ background: transparent;
 border-radius: 8px;
 color: #FFFFFF;
 padding-left: 10px;
+border: 1px solid #FFFFFF;
 }
 
 .Subscribe-form .btn-primary{
